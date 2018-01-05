@@ -1,6 +1,6 @@
 # AngularSQL
 
-This is an Angular 5 app running on a Node server with a MySQL database
+This is an Angular 5 app running on a Node server with a MySQL database.
 
 ## Development server
 
