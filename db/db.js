@@ -20,7 +20,7 @@ class Database {
 
   createEmployee(name) {
     return new Promise((resolve) => {
-      const employee = { name: name, location: '' };
+      const employee = { name: name };
 
       this.con.query('INSERT INTO employees SET ?', employee, (err, res) => {
         if (err) {
@@ -62,7 +62,7 @@ class Database {
           if (err) {
             resolve(null);
           }
-          resolve(result);
+          resolve({id: id, name: name});
         }
       );
     });
