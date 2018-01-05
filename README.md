@@ -1,6 +1,6 @@
-# MysqlAngular
+# AngularSQL
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.1.
+This is an Angular 5 app running on a Node server with a MySQL database
 
 ## Development server
 
