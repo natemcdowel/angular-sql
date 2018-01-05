@@ -1,0 +1,12 @@
+<div class="new-employee">
+  Create new employee:
+  <input [(ngModel)]="newEmployee"/>
+  <button (click)="create(newEmployee)">Submit</button>
+</div>
+
+<div *ngFor="let employee of employees">
+  <input [(ngModel)]="employee.name"/>
+  <button (click)="update(employee)">Submit</button>
+  <button (click)="delete(employee)">Delete</button>
+</div>
+
